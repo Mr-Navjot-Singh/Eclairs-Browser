@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_forward"
+        android:icon="@drawable/ic_trending_flat_black_24dp"
+        android:title="Move Forward"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_cancel"
+        android:icon="@drawable/ic_clear_black_24dp"
+        android:title="Stop Loading"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Home"
+        app:showAsAction="always" />
+
+
+</menu>

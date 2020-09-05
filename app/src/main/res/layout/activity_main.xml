@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Eclairs Browser"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:id="@+id/searchfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionSend"
+                android:inputType="textUri"
+                android:hint="www.example.com"
+                android:layout_margin="15dp"/>
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="search"
+                android:layout_gravity="center"
+                android:background="#D81B60"
+                android:textColor="#FCFAFA"
+                />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#000000"
+                android:text="@string/url_selection"
+                android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/searchencrypt"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/search_encrypt" />
+
+                    <ImageView
+                        android:id="@+id/qwant"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/qwant" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/duck"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/duckduckgo_2" />
+
+                    <ImageView
+                        android:id="@+id/startpage"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/start_page" />
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/searx"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/searx" />
+                    <ImageView
+                        android:id="@+id/gibiru"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/gibiru" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/swisscows"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/swiss_cows" />
+                    <ImageView
+                        android:id="@+id/metager"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/metager" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageView
+                        android:id="@+id/discon_search"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/disconnect_search" />
+                    <ImageView
+                        android:id="@+id/wolfram"
+                        android:layout_width="0dp"
+                        android:layout_height="215dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/wolfram" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
